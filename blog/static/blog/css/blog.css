@@ -1,0 +1,120 @@
+.backgroundimage{
+    background-size: cover;
+min-height: 100vh;
+
+}
+
+body { 
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif; 
+}
+
+a { 
+    color:#5d5be0;
+    text-decoration:none; 
+}
+
+h1 { 
+    font-weight:normal;
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+}
+
+h2 {
+    font-weight:normal;
+    margin:30px 0 0;
+}
+
+#content { 
+    float:left;
+    width:60%;
+    padding:0 0 0 30px; 
+    
+}
+
+#sidebar { 
+    float:right;
+    width:30%;
+    padding:30px;
+    background: rgba(60, 124, 243, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(122, 174, 241, 0.5);
+    height:500%;
+}
+
+p.date { 
+    color:#141416;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic; 
+}
+
+/* pagination */
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}
+
+.pagination a{
+    color: #00abff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 4px;
+    background: rgba(0,0,0, 0.8);
+}
+
+.pagination a:hover{
+    background: #00abff;
+    color: #ffffff;
+}
+
+/* forms */
+label { 
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px; 
+}
+input, textarea { 
+    clear:both;
+    float:left;
+    margin:0 0 10px;
+    border:0;
+    padding:6px 10px;
+    font-size:12px;
+    background: rgba(60, 124, 243, 0.7);
+    box-shadow: 0 4px 10px rgba(122, 174, 241, 0.5);
+}
+input[type=submit] {
+    font-weight:bold;
+    background:#00abff;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase; 
+}
+.errorlist { 
+    color:#c03a5c;
+    float:left;
+    clear:both;
+    padding-left:10px; 
+}
+
+/* comments */
+.comment {
+    padding:10px;
+    background: rgba(60, 124, 243, 0.7);
+    box-shadow: 0 4px 10px rgba(122, 174, 241, 0.5);
+}
+
+.comment:nth-child(even) {
+    background:#5079eb;
+    background: rgba(60, 124, 243, 0.7);
+    box-shadow: 0 4px 10px rgba(122, 174, 241, 0.5);
+}
+.comment .info {
+    font-weight:bold;
+    font-size:12px;
+    color:#272626;}
